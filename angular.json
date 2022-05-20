@@ -32,9 +32,17 @@
             ],
             "styles": [
               "src/styles.scss"
+<<<<<<< HEAD
 
             ],
             "scripts": [
+=======
+              
+            ],
+            "scripts": [
+              
+              
+>>>>>>> ab13c034adaacf563b5c3275a8379af9a74aa1f8
 
             ]
           },
