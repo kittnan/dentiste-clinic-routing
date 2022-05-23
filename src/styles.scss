@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.head-page{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
