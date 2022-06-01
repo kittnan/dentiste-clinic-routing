@@ -6,6 +6,7 @@ import { AdminDashboardComponent } from './components/admin-dashboard/admin-dash
 import { AdminUsersManageComponent } from './components/admin-users-manage/admin-users-manage.component';
 import { AdminHeaderComponent } from './components/admin-header/admin-header.component';
 import { AdminHomeComponent } from './components/admin-home/admin-home.component';
+import { AgGridModule } from 'ag-grid-angular';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AdminHomeComponent } from './components/admin-home/admin-home.component
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    AgGridModule
   ]
 })
 export class AdminModule { }
