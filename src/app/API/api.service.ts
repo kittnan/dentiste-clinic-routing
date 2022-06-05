@@ -12,6 +12,40 @@ export class ApiService {
     this.URLAPI = environment.URLAPI;
   }
 
+
+  // ? ------------------------------------- Customer
+  getCustomers(): Observable<any>{
+    return this.http.get(`${this.URLAPI}/customers/`)
+  }
+  addCsutomer(data:any): Observable<any>{
+    return this.http.post(`${this.URLAPI}/customers/add/`,data)
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   getMember(): Observable<any> {
     return this.http.get(`${this.URLAPI}/members/`);
   }

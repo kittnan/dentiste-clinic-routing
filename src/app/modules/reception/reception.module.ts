@@ -6,6 +6,9 @@ import { ReceptionLayoutComponent } from './components/reception-layout/receptio
 import { CustomerRegisterComponent } from './components/customer-register/customer-register.component';
 import { CustomerManageComponent } from './components/customer-manage/customer-manage.component';
 import { ReceptionHeaderComponent } from './components/reception-header/reception-header.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AgGridModule } from 'ag-grid-angular';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -18,7 +21,11 @@ import { ReceptionHeaderComponent } from './components/reception-header/receptio
   ],
   imports: [
     CommonModule,
-    ReceptionRoutingModule
+    ReceptionRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
+    AgGridModule,
+    NgbModule
   ]
 })
 export class ReceptionModule { }

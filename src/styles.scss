@@ -6,3 +6,15 @@
     border-left: 1px solid black;
     border-bottom: 1px solid black;
 }
+
+.modal-content{
+    z-index: 99999;
+}
+ngb-modal-backdrop{
+    z-index: 1011;
+}
+
+.modal-backdrop fade show {
+    z-index: 1011;
+    
+}
